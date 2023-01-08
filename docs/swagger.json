@@ -1,0 +1,21 @@
+{
+    "swagger": "2.0",
+    "info": {
+        "contact": {}
+    },
+    "paths": {
+        "/v1/helloworld": {
+            "get": {
+                "produces": [
+                    "application/json"
+                ],
+                "summary": "Createtiger create tiger in the wild",
+                "responses": {
+                    "200": {
+                        "description": "OK"
+                    }
+                }
+            }
+        }
+    }
+}

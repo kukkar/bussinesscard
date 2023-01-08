@@ -1,0 +1,12 @@
+info:
+  contact: {}
+paths:
+  /v1/helloworld:
+    get:
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+      summary: Createtiger create tiger in the wild
+swagger: "2.0"
